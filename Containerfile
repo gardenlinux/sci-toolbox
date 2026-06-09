@@ -1,5 +1,5 @@
 ARG VERSION=latest
-FROM ghcr.io/gardenlinux/nightly:$VERSION
+FROM ghcr.io/gardenlinux/gardenlinux:$VERSION
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
